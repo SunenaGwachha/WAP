@@ -1,0 +1,47 @@
+body{
+	background-color:#585858;
+	color:white;
+	font-family:auto;
+}
+
+.highlight {
+	font-weight:bold;
+	color:yellow;
+}
+h1, h3 {
+	
+	color:#5882FA;
+}
+.italictext {
+	font-style:italic;
+}
+
+a{
+	text-decoration:none;
+}
+
+a:hover{
+	
+	text-decoration:underline;
+}
+	
+	.highlight1 {
+	font-weight:bold;
+	color:green;
+}
+
+a.highlight1:hover{
+	color:orange;
+}
+p::first-letter{
+	font-size:1.5em;
+}
+
+ol { 
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+li {
+    flex: 0 0 auto;
+}
