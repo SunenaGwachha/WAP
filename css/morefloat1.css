@@ -117,50 +117,137 @@ width: 100px;
   font: 30pt bold Helvetica, Arial, sans-serif;
   line-height: 100px;
   text-align: center;
-background-color: pink; 
-float: left;
+  background-color: pink;
+      float:left;
+    
+    
 
 }
-#c5 { background-color: lightgray;
-
+#c5 { 
+background-color: lightgray;
 float: left;
   text-align: center;
-  width: 300px;  }
+  width: 300px; }
 
 
 
-
-
-
+   
 
 #a6 {
+	width: 100px;
+    height: 100px;
+    font: 30pt bold Helvetica, Arial, sans-serif;
+    line-height: 100px;
+    text-align: center;
+    background-color: lightblue;
+    float: right;
+}
+#b6 {
+	width: 100px;
+    height: 100px;
+    font: 30pt bold Helvetica, Arial, sans-serif;
+    line-height: 100px;
+    text-align: center;
+    background-color: lightblue;
+    position: relative;
+    float:right;
+    top: 50px;
+    right: -10px;
+    background-color: pink;
+}
+#c6 {
+    clear: right;
+    text-align: center;
+    margin-right: 100px;
+    background-color: lightgray;
+}
+
+
+
+#a7 {
 	width: 100px;
   height: 100px;
   font: 30pt bold Helvetica, Arial, sans-serif;
   line-height: 100px;
   text-align: center;
 background-color: lightblue;
-  float: right;
+  
+  float: left;
 }
-#b6 {
+#b7 {
 	width: 100px;
   height: 100px;
   font: 30pt bold Helvetica, Arial, sans-serif;
   line-height: 100px;
   text-align: center;
 background-color: pink; 
-  position: absolute;
-  top: 50px;
-  right: 100px;
+ 
+  float: left;
 }
-#c6 {
-  clear: right;
+#c7 {
+	background-color: lightgray;
+  margin-left: 200px;
+}
+
+
+#a8 {
+	width: 100px;
+  height: 100px;
+  font: 30pt bold Helvetica, Arial, sans-serif;
+  line-height: 100px;
   text-align: center;
-  margin-right: 100px;
+background-color: lightblue;
+  
+  float: left;
+}
+#b8 {
+	width: 100px;
+  height: 100px;
+  font: 30pt bold Helvetica, Arial, sans-serif;
+  line-height: 100px;
+  text-align: center;
+background-color: pink; 
+ 
+  
+}
+#c8 {
+	background-color: lightgray;
 }
   
+
+
+
+#a9 {
+	width: 100px;
+  height: 100px;
+  font: 30pt bold Helvetica, Arial, sans-serif;
+  line-height: 100px;
+  text-align: center;
+background-color: lightblue;
+  
+  float: left;
+}
+#b9 {
+	width: 100px;
+  height: 100px;
+  font: 30pt bold Helvetica, Arial, sans-serif;
+  line-height: 100px;
+  text-align: center;
+background-color: pink; 
+ float: left;
+  
+}
+#c9 {
+	background-color: lightgray;
+	margin-top: 100px;
+}
   
  
+#d9 {
+  height: 100px;
+}
+
+
 
 
 
