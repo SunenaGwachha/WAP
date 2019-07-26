@@ -1,0 +1,80 @@
+body{
+	    
+
+  
+	background-image:url("background.png");
+	
+	
+}
+
+
+
+/*
+color:#404040;
+	font-family:georgian;
+
+h2 {
+
+	background-color:#F0F0F0;
+	font-size:22pt;
+	font-weight:bold;
+	color:#A4A400;
+	text-decoration:underline;
+	font-family:upper-alpha;
+	text-align:center;
+	letter-spacing:0.25em;
+}
+h1, h3 {
+	background-color:#F0F0F0;
+	font-size:18pt;
+	color:#A4A400;
+	text-decoration:underline;
+	font-family:upper-alpha;
+	letter-spacing:0.25em;
+}
+.copyright{
+	font-family:aqua;
+	
+}
+.italictext {
+	background-color:yellow;
+	font-style:italic;
+}
+.textbold{
+	font-weight:bold;
+}
+	
+.highlight {
+	
+	color:#A4A400;
+}
+
+.right{
+	
+	height:80px;
+	width:auto;
+	margin-left:50px;
+	margin-right:50px;
+
+	background-color:#ffffa8;
+	font-style:italic;
+}
+.bottom{
+	
+	height:80px;
+	width:20%;
+	
+	text-align:right;
+	padding-top:10px;
+	background-color:white;
+	
+}
+.stripe{
+	text-decoration:line-through;
+}
+
+ul{
+    List-style-image:url("../img/pie_bullet.png")
+}
+
+*/

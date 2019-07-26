@@ -1,0 +1,205 @@
+body {
+
+ background-image:url("../img/background.png");
+ font-family:georgian;
+ font-size:8pt;
+ 
+ }
+ .top{
+	
+	 margin:-10px;
+	 display:block;
+	
+	 height:50px;
+	 
+	 background-image:url("../img/bannerbg.png");
+	 background-repeat:repeat-x;
+	 	 
+ }
+ .inside{
+	 width:50%; 
+	 margin:0 auto;
+ }
+ 
+ .text{
+	 font-size:48pt;
+	 color:red;
+	 font-weight:bold;
+	 
+	 position:relative;
+	 bottom:20px;
+	 
+ }
+ .h1{
+	 text-align:center;
+	 font-size:24pt;
+	 font-style:bold;
+	 text-shadow:3px 3px #999999;
+ }
+ 
+ 
+  
+ .box { 
+ width: 800px;
+    margin: auto;
+background-color: red;
+ background-image:url("../img/background.png");
+border: 4px  solid gray;
+border-radius:20px;
+
+}
+
+.flex{
+	display:flex;
+ 
+ 
+}
+	
+.box1{
+	flex:70%;
+	background-color:pink;
+	
+}
+
+
+.box2{
+	margin:0px;
+	 display:block;
+		background-image:url("../img/rbg.png");
+		background-repeat:repeat-x;
+		 border-top-left-radius: 20px;
+
+		
+ 
+ }
+.box3{
+	
+	flex:30%;
+background-color:#A2B964;
+
+}
+
+.footer{
+	
+ 
+	 padding: 5px;
+    text-align: center;
+    
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+	 background-color:#A2B964;
+	
+	 clear:both;
+	 
+ }
+
+
+
+
+@media screen and (max-width: 700px) {
+  .top, .box, .flex,  {   
+    flex-direction: column;
+  }
+}
+
+.flex1{
+	display:flex;
+}
+
+.columns1{
+	flex:47%;
+	height:667px;
+		
+}
+	
+	.textbox { 
+ width: 70%;
+  margin:8px;
+background-color: #E8DC9B;
+ 
+border: 2px  solid gray;
+border-radius:10px;
+
+}
+q{
+	font-size:8pt;
+	font-style:bold;
+	
+	
+}
+
+.wrap{
+	
+	float:left;
+	
+}
+
+dt{
+	margin-top:10px;
+	font-size:8pt;
+	font-family:aqua;
+}
+
+
+
+.leftcolumn {
+    flex: 250px;
+    
+    box-sizing: border-box;
+}
+.leftcolumn dl dt{
+    margin-left: 15px;
+    font-weight: bold;
+    margin-top: 10pt;
+}
+.leftcolumn dd{
+    margin-left: 25px;
+}
+.leftcolumn ul{
+    list-style:none;
+}
+
+.validator{
+	float:right;
+	height:200px;
+	weight:200px;
+	
+}
+
+/*
+.box1{
+	background-color:pink;
+	width:550px;
+	height:750px;
+	float:left;
+	
+		
+}
+ .box2{
+	 
+ background-color:green;
+ height:50px;
+ 
+ }
+ 
+ .box3{
+	 
+	 background-color:blue;
+	 width:;
+	 height:750px;
+	 float:left;
+ }
+ 
+ .box4{
+	 
+	 
+	 
+	 border-radius:20px; 
+	 border: 4px  solid gray;
+	 background-color:black;
+	 height:50px;
+	 clear:both;
+	 
+ }
+ 
+ */
