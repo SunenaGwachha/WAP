@@ -11,7 +11,7 @@ window.onload=function(){
     let timerId = null;
     window.onload = function () {
         textarea = document.getElementById("output");
-        document.getElementById("biggerDecorations").onclick = changeText1;
+        document.getElementById("biggerDecorations").onclick = enlarge;
         document.getElementById("checked").onchange = change;
 
     };
@@ -29,6 +29,17 @@ function fontTimer(){
 	setTimeout(changeText1,500);
 	
 }
+
+
+let timer = null; // stores ID of interval timer 
+function enlarge() {
+ if (timer === null) {
+ 		timer = setInterval(changeText1, 500); 
+	} else {
+ 		clearInterval(timer);
+ 		timer = null;
+ } 
+} 
 	
 
 function changeText1() {
@@ -58,6 +69,38 @@ function change() {
 }
 
 })();
+
+
+
+/*
+
+<button onclick="delayMsg2();">Click me!</button> 
+<span id="output"></span>
+
+
+let timer = null; // stores ID of interval timer 
+function delayMsg2() {
+ if (timer === null) {
+ 		timer = setInterval(rudy, 1000); 
+	} else {
+ 		clearInterval(timer);
+ 		timer = null;
+ } 
+} 
+
+function rudy() { // called each time the timer goes off
+ document.getElementById("output").innerHTML += " Rudy!"; 
+}
+
+
+
+
+
+
+
+
+
+*/
 
 
 
