@@ -38,7 +38,7 @@
     };
 
     function startAnimation() {
-        toogleControl('start');
+        control('start');
         currentAminationText = textshowAnimation.value;
         if (timer === null) {
             timer = setInterval(changeFrame, delay);
@@ -47,7 +47,7 @@
     }
 
     function stopAnimation() {
-        toogleControl('stop');
+        control('stop');
 
         if (timer !== null) {
             clearInterval(timer);
@@ -82,7 +82,7 @@
         }
     }
 
-    function toogleControl(state) {
+    function control(state) {
         if (state === 'start') {
             buttonStart.disabled = true;
             buttonStop.disabled = false;
@@ -96,7 +96,7 @@
         }
     }
 
-    function changeFrame() {
+    function changingScreen() {
 
         let frames = currentAminationText.split("=====\n");
         textshowAnimation.value = frames[index];
