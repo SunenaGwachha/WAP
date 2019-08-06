@@ -11,6 +11,7 @@ $(document).ready(function() {
     
 });
 
+
 function changeRedColor(){
     if(!win){
     $("#maze .boundary").addClass("youlose");
