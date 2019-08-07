@@ -17,7 +17,7 @@ $(function () {
 			left:"50%"
             
         });
-		var colors = ["red", "blue", "yellow", "black", "green"];
+		var colors = ["red", "blue", "yellow", "black", "green","pink", "purple", "brown"];
 		
 		let count=parseInt($('#numbercircle').val());
 
@@ -27,8 +27,8 @@ $(function () {
 		$newCircle.css( "background-color", colors[Math.floor(Math.random() * colors.length)] );
 		
 		
-		//$newCircle.css( "top", Math.floor(Math.random()*$(this).height())*i*2 );
-		//$newCircle.css( "left", Math.floor(Math.random()*$(this).width())*i*2 );
+		$newCircle.css( "top", Math.random()*90 );
+		$newCircle.css( "left",Math.random()* 200 );
 		
 		
 		
@@ -58,7 +58,10 @@ function reset(evt) {
 
     }
 */
-$(this).hide();
+//$(this).hide();
+$(this).css("visibility","hidden");
+
+
 
 }
 
