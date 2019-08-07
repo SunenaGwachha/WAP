@@ -1,14 +1,11 @@
 
 
 $(function () {
-	
-	
+		
 	
 	let timer = null;
 	
     $('#start').click(display);
-	
-	
 	
 	
 	function display() {
@@ -31,26 +28,23 @@ $(function () {
 		
 		
 		//$newCircle.css( "top", Math.floor(Math.random()*$(this).height())*i*2 );
-		//$newCircle.css( "left",Math.floor(Math.random()*$(this).width())*i*2 );
+		//$newCircle.css( "left", Math.floor(Math.random()*$(this).width())*i*2 );
 		
 		
 		
 		$newCircle.addClass("circle");
 		$newCircle.click(reset);
+		$newCircle.mouseenter(changeOpacity);
+		$newCircle.mouseleave(resetOpacity);
 		}
-		  timer = setInterval(enlargeCircle, ($('#growthrate').val()));
-  
-		
+		  timer = setInterval(enlargeCircle, ($('#growthrate').val()));		
     }
 	
-	
-
 function enlargeCircle(evt) {
     
       
      $('.circle').css("width", parseInt( $('.circle').height())+ parseInt($('#growthamount').val()) + 'px');
-	$('.circle').css("height", parseInt( $('.circle').height())+ parseInt($('#growthamount').val()) + 'px');
-        
+	$('.circle').css("height", parseInt( $('.circle').height())+ parseInt($('#growthamount').val()) + 'px');      
        
    
 }
@@ -69,4 +63,27 @@ $(this).hide();
 }
 
 
+let opacitytimer;
+function changeOpacity() {
+
+	 opacitytimer=setInterval((evt)=>{
+		 //alert(this);
+		// alert($(this));
+		 		let present=parseFloat($(this).css("opacity"))
+										
+				let next=present-0.05;										
+
+				$(this).css("opacity",next);
+				}
+
+		,150);
+}
+
+function resetOpacity(){
+	let t=opacitytimer;
+
+	clearInterval(t);
+	$(this).css("opacity","1");
+
+}
 });
